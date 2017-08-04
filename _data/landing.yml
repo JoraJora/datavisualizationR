@@ -1,0 +1,31 @@
+# index page sections
+# custom following lines to edit your index page
+- id: Descripción
+  i18n: nav.descripcion
+  name: descripcion
+  tpl: descripcion.html
+  css:
+
+- id: Contenidos
+  i18n: nav.contenidos
+  name: contenidos
+  tpl: contenidos.html
+  css: timeline
+
+- id: Evaluación
+  i18n: nav.evaluacion
+  name: evaluacion
+  tpl: evaluacion.html
+  css: team
+
+- id: Calendario
+  i18n: nav.calendario
+  name: calendario
+  tpl: calendario.html
+  css: project
+
+- id: Recursos
+  i18n: nav.recursos
+  name: recursos
+  tpl: recursos.html
+  css: team

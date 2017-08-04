@@ -1,0 +1,30 @@
+# links section data
+- last_name: SPSS
+  first_name: Raynald's Tools
+  desc: Colección de códigos y de macros para implementar soluciones de manejo de datos y problemas análiticos
+  website: http://spsstools.net/en
+
+- last_name: SPSS
+  first_name: Link de MEGA
+  desc: Descargar y probar SPSS
+  website: https://mega.nz/#!tgQwjJJK!nIVscc601_zD2aYhA4nJwwT3OArYtaNsuAgLPrX8hUE
+
+- last_name: SPSS
+  first_name: Link de libro SPSS
+  desc: Raynald Libro
+  website: http://spsstools.net/static/spss-programming-book/DMbook19.zip
+  
+- last_name: SAS
+  first_name: University Edition
+  desc: Descargar y probar SAS Studio
+  website: https://www.sas.com/en_us/software/university-edition.html
+
+- last_name: Descargar SAS
+  first_name: link de MEGA 
+  desc: Support Jalpc
+  website: https://igorlatsik13.blogspot.com.co/2015/02/sas-94-multi-licencia-mega.html
+
+- last_name: Descargar VirtualBox
+  first_name: virtualización de SO
+  desc: Descargar y probar VirtualBox
+  website: https://www.virtualbox.org/
