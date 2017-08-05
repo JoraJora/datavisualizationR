@@ -2,5 +2,5 @@
 
 label: Ability
 id :   cs
-aspects: Conceptos de Programación, SAS Base, SPSS Tools, SAS Macros, SPSS Macros, Bases de Datos (PROC SQL)
-percentage: 80, 40, 20, 90, 90, 50
+aspects: Conceptos de Programación, R intermedio, Shiny, Markdown, Bootstrap, Knitr
+percentage: 50, 50, 80, 60, 30, 50
