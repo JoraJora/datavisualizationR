@@ -4,298 +4,156 @@
     detail:  
     i18n: 
   desc:
-    detail: <h3> Introducción </h3> <ul> <LI> Configuración SAS Server <LI> Introducción a la Programación <li> Introducción SAS <ul> <li> Tipos de rutina <li> Modos de procesamiento <li>  Interfaces de SAS <li> Ventanas de SAS</ul></UL>
+    detail: <h3> Introducción </h3> 
+            <ul> 
+              <li> Presentación de Curso
+              <li> Introducción a la Programación 
+              <li> Elementos basicos de R
+              <li> El propósito de la visualización 
+              <ul> 
+                <li> El propósito de la visualización
+                <li> Ejemplos de visualización
+              </ul>
+            </ul>
+            <h3> Data Camp 
+            <ul>
+              <li> <a href = "https://www.datacamp.com/courses/free-introduction-to-r"> Curso de basico de R </a>
+              <li> <a href = "https://www.datacamp.com/courses/intermediate-r"> Curso de intermedio de R </a>
+            </UL>
     i18n: week_1_desc
   date:
     detail: Semana 1
     i18n: week_1_desc
   job:
-    detail: Programación - SAS (Introducción)
+    detail: Programación - R (Introducción)
     i18n: week_1_jon
   icon: fa-plus-square
 - name:
     detail: 
     i18n: 
   desc:
-    detail: <h3> Procedimiento PROC SQL (I Parte - <a href="https://raw.githubusercontent.com/JoraJora/Jalpc/master/Codigos/PROCSQL_I.sas"> Código </a>) </h3> <ul> 
-            <LI> Introducción Base de datos <a href="http://elvex.ugr.es/idbis/db/docs/intro/B%20Bases%20de%20Datos.pdf"> (presentacion) </a> 
-            <LI> Modelo entidad relación <a href = "http://artemisa.unicauca.edu.co/~gavasquez/res/BD/material/modelo%20E-R.pps">(presentacion) </a>
-            <LI> Manual de PROC SQL <a href = "https://support.sas.com/documentation/cdl/en/sqlproc/63043/PDF/default/sqlproc.pdf">(link) </a>
-            <LI> <a href="http://support.sas.com/documentation/onlinedoc/base/9.3/SQLDatasetsV9.zip"> Datos PROC SQL</a> <a href="http://ftp.sas.com/samples/A56936"> (Instrucciones) </a> 
-            <li> Extracción de datos <ul> <li> Comando SELECT <li> Comando FROM <li>  Clausula WHERE <li> Clausula GROUP BY <li> Clausula Having <li> Orden de las clausulas</ul> </UL> 
-            <h3> Procedimiento PROC SQL (II Parte - <a href="https://raw.githubusercontent.com/JoraJora/Jalpc/master/Codigos/PROCSQL_II.sas"> Código </a>)</h3>
+    detail: <h3> Programación en R (I Parte Agregaciones) </h3> 
             <UL>
-            <LI> Definición del Modelo relacional <a href = "http://ict.udlap.mx/people/carlos/is341/bases03.html"> (recurso) </a>
-            <LI> Operaciones conjutos
-            <LI> <a href = "https://www.fing.edu.uy/tecnoinf/mvd/cursos/bd2/material/teo/bd2-teorico01.pdf"> Operaciones derivadas  </a>
-            <LI> Producto Cartesiano
-            <LI> Inner Join, self Join
-            <LI> Outer Joins  
-            <LI> CrossJoin, Union Join, Natural Join
-            <li> <a href = "https://www.overleaf.com/read/pwhsgnxsxcqt"> Taller Practico </a>
+              <li> Paquete "plyr", "dplyr" <a href = "http://ict.udlap.mx/people/carlos/is341/bases03.html"> (recurso) </a>
+              <li> Funcipones especiales
+              <li> Ejemplos de Uso
+              <li> data.table + dplyr = dtplyr
             </ul>
-
-    i18n: week_2_desc
-  date:
-    detail: Semana 2
-    i18n: week_2_desc
-  job:
-    detail: PROC SQL
-    i18n: week_2_jon
-  icon: fa-plus-square
-- name:
-    detail: 
-    i18n: 
-  desc:
-    detail: <h3> Códigos en SAS (<a href="https://raw.githubusercontent.com/JoraJora/Jalpc/master/Codigos/SAS_CODE_I.sas"> Código </a>)</h3> 
-            <ul> 
-              <li>Características - Reglas 
-              <LI> Como crear Comentarios
-              <LI> Depuración y Errores 
-              <LI> Reglas de Sintaxis 
-              <li> Acceso de datos a SAS 
-                <UL> 
-                <LI> Características de un conjunto de datos.
-                <LI> Accediendo a la librerias de SAS.
-                <LI> Descripción de las librerias de SAS.
-                </UL>
+            <h3> Data Camp 
+            <ul>
+              <li> <a href = "https://www.datacamp.com/courses/dplyr-data-manipulation-r-tutorial"> dplyr </a>
             </UL>
-            <H3> Selección de datos </h3> 
-            <ul> 
-              <li> Filtros con PROC PRINT (Var, Sum, Where, ID Statement)
-              <li> Operadores Logicos
-              <li> Operadores Especiales
-              <li> Ordenamiento y Agrupación (<a href="https://raw.githubusercontent.com/JoraJora/Jalpc/master/Codigos/SAS_CODE_II.sas"> Código </a>)
-                  <ul> 
-                    <li> Proc SORT
-                    <li> Agrupamiento de variables
-                    <li> Mejorando los reportes (tile y footnote)
-                  </ul>
-              <li> Formatos de las variables (Propias y Definidas por los Usuarios)
-              <li> Sentencia LABEL
-            </ul>
+
     i18n: week_3_desc
   date:
     detail: Semana 3
     i18n: week_3_desc
   job:
-    detail: Programación - SAS
+    detail: Programación en R
     i18n: week_3_jon
   icon: fa-plus-square
 - name:
-    detail:
-    i18n: 
-  desc: 
     detail: 
-            <ul>
-            <li> <H3> Procesos Batch <a href="http://www.wikihow.com/Write-a-Batch-File"> (Ejemplo)</a> </H3> 
-            <ul>
-              <li> Principales instrucciones 
-              <li> Como correr un Script de SAS/R (Batch Mode)
+    i18n: 
+  desc:
+    detail: <h3> Programación en R (Funciones) </h3>
+            <ul> 
+              <li> Cuando y como se deben escribir funciones
+              <li> Programación funcional
+              <li> Entras y salidas avanzadas
             </ul>
-            <li> <h3> Lectura de archivos </h3>
+            <h3> Data Camp 
             <ul>
-              <li> Lectura de archivos EXCEL
-              <li> Lectura Raw data
-              <li> Lectura de archivos Delimitados por Coma
-              <li> DROP, KEEP y IF (IF vs WHERE)
-            </ul>
-            <li><H3> Macros en SAS </h3>
-            <ul>
-              <li> <a href="http://www2.sas.com/proceedings/sugi29/243-29.pdf"> Macro Programming for Beginners </a>
-              <li> <a href="https://raw.githubusercontent.com/JoraJora/Jalpc/master/Codigos/ejemploI_Macros.sas">Ejemplo Inicial</a>
-              <li> Macro variable
-              <li> Definición de las macros
-              <li> <a href="https://support.sas.com/documentation/cdl/en/mcrolref/62978/PDF/default/mcrolref.pdf"> Guia de referencia de Macros </a>
-            </ul>            
+              <li> <a href = "https://www.datacamp.com/courses/writing-functions-in-r"> Writing Functions in R </a>
+            </UL>
+
     i18n: week_4_desc
   date:
     detail: Semana 4
     i18n: week_4_desc
-  job: 
-    detail: Macros - SAS
+  job:
+    detail: Programación en R
     i18n: week_4_jon
   icon: fa-plus-square
 - name:
-    detail:
-    i18n: 
-  desc: 
     detail: 
+    i18n: 
+  desc:
+    detail: <h3> Programación en R (visualización I) </h3>
+            <ul> 
+              <li> Paquete Ggplot2 
+              <li> Graficos disponibles
+              <li> Elementos de un grafico (Data, Aesthetics y Geometries)
+              <li> Mas elementos de un grafico (Coordinates, Facets y Themes)
+              <li> Mas graficos disponibles
+            </ul>
+            <h3> Data Camp 
             <ul>
-            <li><H3> Ejemplos Macros en SAS  (<a href="https://raw.githubusercontent.com/JoraJora/Jalpc/master/Codigos/Macros.zip"> Descargar Todo</a>)</h3>
-              <ul>
-                <li> Otro ejemplo de LET (<a href="https://raw.githubusercontent.com/JoraJora/Jalpc/master/Codigos/Macros/M1.sas">Ejemplo Inicial</a>)
-                <li> <a href="https://raw.githubusercontent.com/JoraJora/Jalpc/master/Codigos/Macros/M2.sas">Ejemplo Means/corr</a>
-                <li> <a href="https://raw.githubusercontent.com/JoraJora/Jalpc/master/Codigos/Macros/M2.5%20-%20collecting%20lsmeans.sas">Ejemplo GLM</a>
-                <li> <a href="https://raw.githubusercontent.com/JoraJora/Jalpc/master/Codigos/Macros/M3.sas">Merge Stats</a>
-                <li> <a href="https://raw.githubusercontent.com/JoraJora/Jalpc/master/Codigos/Macros/M4.sas">Macros con PROC DATA y PROC STEP </a>
-              </ul>
-            <li><H3> Ejemplo de procedimientos Estadisticos (<a href = "https://support.sas.com/documentation/cdl/en/statug/63962/HTML/default/viewer.htm#titlepage.htm"> Manual de Usuario </a>)</H3> 
-              <ul>
-                <li> <a href="https://raw.githubusercontent.com/JoraJora/Jalpc/master/Codigos/Macros/cake_example.sas"> DATOS </a>
-                <li> PROC MEANS  (<a href="https://teamsite.smu.edu.sg/wiki/stats/wiki/sas%20elementary%20statistical%20procedures.aspx"> ejemplos </a>)
-                <li> PROC FREQ
-                <li> PROC UNIVARIATE
-                <li> PROC CLUSTER (<a href="https://support.sas.com/documentation/cdl/en/statug/63347/HTML/default/viewer.htm#cluster_toc.htm"> Guía de Usuario</a>)
-              </ul>
-            </ul>            
+              <li> <a href = "https://www.datacamp.com/courses/data-visualization-with-ggplot2-part-1"> ggplot2 (Parte 1) </a>
+              <li> <a href = "https://www.datacamp.com/courses/data-visualization-with-ggplot2-part-2"> ggplot2 (Parte 2) </a>
+              <li> <a href = "https://www.datacamp.com/courses/data-visualization-with-ggplot2-part-3"> ggplot2 (Parte 3) </a>
+              <li> (BONUS)<a href = "https://www.datacamp.com/courses/data-visualization-in-r-with-lattice"> lattice </a>
+            </UL>
+
     i18n: week_5_desc
   date:
     detail: Semana 5
     i18n: week_5_desc
-  job: 
-    detail: Macros - SAS
+  job:
+    detail: Programación en R
     i18n: week_5_jon
   icon: fa-plus-square
 - name:
-    detail:
-    i18n: 
-  desc: 
     detail: 
+    i18n: 
+  desc:
+    detail: <h3> Programación en R (Reportes) </h3>
+            <ul> 
+              <li> Introducción al lenguaje de marcadores
+              <li> Estructura general
+              <li> R Markdown y ejemplos de uso
+              <li> Construcción de reportes
+            </ul>
+            <h3> Data Camp 
             <ul>
-            <li>  <h3> Primer Paricial <a href="https://docs.google.com/forms/d/e/1FAIpQLSdS9n40z6ROrKJfP_s1W6c_eDQx_s-EujUvlRCMf8NJma-0mw/viewform?usp=sf_link">(Link)</a></h3>
-              <ul>
-                <li> PROC SQL
-                <li> DATA STEP 
-                <li> MACROS                
-              </ul>
+              <li> <a href = "https://www.datacamp.com/courses/reporting-with-r-markdown"> R Markdown </a>
+              <li> (BONUS) <a href = "https://github.com/IRkernel/IRkernel"> Desplegar un Jupyter notebook con R </a>
+            </UL>
 
-            <li>  <h3> Uso de SAS Enterprise Guide</h3>
-              <ul>
-                <li> Datos del Ejemplo <a href= "https://onlinecourses.science.psu.edu/stat857/node/215"> (link) </a>
-                <li> Diapositivas de apoyo <a href= "https://raw.githubusercontent.com/JoraJora/Jalpc/master/Codigos/lwcsem71_001.zip"> (descargar) </a>
-                <li> Developing Credit Scorecards <a href="https://support.sas.com/documentation/cdl/en/emcsgs/66024/PDF/default/emcsgs.pdf"> (link) </a>                
-              </ul>
-
-            </ul>            
     i18n: week_6_desc
   date:
     detail: Semana 6
     i18n: week_6_desc
-  job: 
-    detail: Macros - SAS
+  job:
+    detail: Programación en R
     i18n: week_6_jon
   icon: fa-plus-square
 - name:
-    detail:
-    i18n: 
-  desc: 
     detail: 
-      <ul>
-      <li><H3>  INTRODUCCION AL SPSS  (<a href="http://pendientedemigracion.ucm.es/info/socivmyt/paginas/D_departamento/materiales/datos_multivariante.htm"> Link </a>)</h3>
-      <ul>
-        <li> <a href = "https://raw.githubusercontent.com/JoraJora/Jalpc/master/Lectura/SPSS_Lecturas/01estruc_SPSS.pdf"> Estructura del Spss </a>
-        <li> <a href = "https://raw.githubusercontent.com/JoraJora/Jalpc/master/Lectura/SPSS_Lecturas/02ayuda_SPSS.pdf"> Cómo utilizar la ayuda </a>
-        <li> <a href = "https://raw.githubusercontent.com/JoraJora/Jalpc/master/Lectura/SPSS_Lecturas/03datos_SPSS.pdf"> Archivos de datos </a>
-        <li> <a href = "https://raw.githubusercontent.com/JoraJora/Jalpc/master/Lectura/SPSS_Lecturas/04editor_SPSS.pdf"> El editor de datos </a>
-        <li> <a href = "https://raw.githubusercontent.com/JoraJora/Jalpc/master/Lectura/SPSS_Lecturas/05transf_SPSS.pdf"> Transformar datos </a>
-        <li> <a href = "https://raw.githubusercontent.com/JoraJora/Jalpc/master/Lectura/SPSS_Lecturas/06modifi_SPSS.pdf"> Modificar archivos de datos </a>
-        <li> <a href = "https://raw.githubusercontent.com/JoraJora/Jalpc/master/Lectura/SPSS_Lecturas/07result_SPSS.pdf"> (Archivos de resultados) el visor de SPSS </a>
-        <li> <a href = "https://raw.githubusercontent.com/JoraJora/Jalpc/master/Lectura/SPSS_Lecturas/08tablas_SPSS.pdf"> Editar tablas de resultados </a>
-        <li> <a href = "https://raw.githubusercontent.com/JoraJora/Jalpc/master/Lectura/SPSS_Lecturas/09sintax_SPSS.pdf"> Archivos de sintaxis </a>
-      </ul>
+    i18n: 
+  desc:
+    detail: <h3> Programación en R (visualización II) </h3>
+            <ul> 
+              <li> Paquete ggvis
+              <li> Paquete bokeh
+              <li> Htmlwidgets + flexdashboard
+            </ul>
+            <h3> Data Camp 
+            <ul>
+              <li> <a href = "https://www.datacamp.com/courses/data-visualization-with-ggplot2-part-3"> Writing Functions in R </a>
+            </UL>
 
-      <li><H3>  ANALISIS DE DATOS (<a href="http://pendientedemigracion.ucm.es/info/socivmyt/paginas/D_departamento/materiales/datos_multivariante.htm"> Link </a>)</h3>
-      <ul>
-        <li> <a href="https://raw.githubusercontent.com/JoraJora/Jalpc/master/Lectura/SPSS_Lecturas/10frec_SPSS.pdf"> (Análisis descriptivo) Los procedimientos Frecuencias y Descriptivos </a>
-        <li> <a href="https://raw.githubusercontent.com/JoraJora/Jalpc/master/Lectura/SPSS_Lecturas/11explor_SPSS.pdf"> (Análisis exploratorio) el procedimiento Explorar </a>
-        <li> <a href="https://raw.githubusercontent.com/JoraJora/Jalpc/master/Lectura/SPSS_Lecturas/12contin_SPSS.pdf"> (Análisis de variables categóricas) el procedimiento Tablas de Contingencia </a>
-        <li> <a href="https://raw.githubusercontent.com/JoraJora/Jalpc/master/Lectura/SPSS_Lecturas/13medias_SPSS.pdf"> (Contrastes sobre medias) los procedimientos Medias y Pruebas T </a>
-        <li> <a href="https://raw.githubusercontent.com/JoraJora/Jalpc/master/Lectura/SPSS_Lecturas/14anova1_SPSS.pdf"> (Análisis de varianza de un factor) el procedimiento ANOVA de un factor. </a>
-        <li> <a href="https://raw.githubusercontent.com/JoraJora/Jalpc/master/Lectura/SPSS_Lecturas/15anova2_SPSS.pdf"> (Análisis de varianza factorial - el procedimiento Modelo Lineal General) Univariante </a>
-        <li> <a href="https://raw.githubusercontent.com/JoraJora/Jalpc/master/Lectura/SPSS_Lecturas/16anovar_SPSS.pdf"> (Análisis de varianza con medidas repetidas - el procedimiento MLG) medidas repetidas </a>
-        <li> <a href="https://raw.githubusercontent.com/JoraJora/Jalpc/master/Lectura/SPSS_Lecturas/17corlin_SPSS.pdf"> (Análisis de correlación lineal) los procedimientos Correlaciones bivariadas y Correlaciones parciales </a>
-        <li> <a href="https://raw.githubusercontent.com/JoraJora/Jalpc/master/Lectura/SPSS_Lecturas/18reglin_SPSS.pdf"> (Análisis de regresión lineal) el procedimiento Regresión Lineal </a>
-        <li> <a href="https://raw.githubusercontent.com/JoraJora/Jalpc/master/Lectura/SPSS_Lecturas/19nparam_SPSS.pdf"> (Análisis no paramétrico) el procedimiento Pruebas no paramétricas </a>
-        <li> <a href="https://raw.githubusercontent.com/JoraJora/Jalpc/master/Lectura/SPSS_Lecturas/20factor_SPSS.pdf"> (Análisis factorial) el procedimiento Análisis factorial </a>
-        <li> <a href="https://raw.githubusercontent.com/JoraJora/Jalpc/master/Lectura/SPSS_Lecturas/21conglk_SPSS.pdf"> (Análisis de conglomerados) el procedimiento Conglomerados de K medias </a>
-        <li> <a href="https://raw.githubusercontent.com/JoraJora/Jalpc/master/Lectura/SPSS_Lecturas/23discr_SPSS.pdf"> (Análisis discriminante) el procedimiento Discriminante </a>
-      </ul>
-      <li><H3>  <a href="https://www.overleaf.com/read/cgsmynfxyrqq"> Taller Practico </a></h3>
-      </ul>         
     i18n: week_7_desc
   date:
     detail: Semana 7
     i18n: week_7_desc
-  job: 
-    detail: Introducción - SPSS
+  job:
+    detail: Programación en R
     i18n: week_7_jon
   icon: fa-plus-square
-- name:
-    detail:
-    i18n: 
-  desc: 
-    detail: 
-      <ul>
-      <li><H3>  INTRODUCCION MACROS SPSS (<a href="http://spsstools.net/en/macros/"> Link </a>)</h3>
-        <ul>
-          <li> <a href = "http://spsstools.net/en/syntax/syntax-index/batch-files/example-of-bat-file-running-an-sps-file/"> Ejemplo de proceso Batch con SPSS </a>
-          <li> <a href = "http://spsstools.net/en/syntax/syntax-index/data-validation/perform-tests-on-ssn/"> EJemplo Definición DATA</a>
-          <li> <a href = "http://spsstools.net/en/macros/macros-index/utilities/define-paths-to-files-by-macro/"> Definición macro variables </a>
-        </ul>
-      <li><H3>  UTILIDADES MACROS </h3>
-        <ul>
-          <li> <a href = "https://fagonzalezo.github.io/ml-2016-2/kernels.pdf"> Metodos Kernel </a>
-          <li> <a href = "http://spsstools.net/en/syntax/syntax-index/matrix/"> Matrices en SPSS</a>
-          <li> <a href = "http://web.pdx.edu/~newsomj/semclass/ho_matrix.pdf"> Otros ejemplos de matrices </a>
-          <li> <a href = "http://spsstools.net/en/macros/learning-macros/#basics"> Introducción a la definición de macro variables</a>
-        </ul>
-      </ul>         
-    i18n: week_8_desc
-  date:
-    detail: Semana 8
-    i18n: week_8_desc
-  job: 
-    detail: Introducción Macros - SPSS
-    i18n: week_8_jon
-  icon: fa-plus-square
-- name:
-    detail:
-    i18n: 
-  desc: 
-    detail: 
-      <ul>
-      <li><H3>  MACROS SPSS (<a href="http://spsstools.net/en/macros/"> Link </a>)</h3>
-        <ul>
-          <li> <a href = "http://spsstools.net/en/syntax/syntax-index/data-validation/perform-tests-on-ssn/"> Macro para lectura de bases</a>
-          <li> <a href = "https://en.wikipedia.org/wiki/Radial_basis_function_kernel"> Kernel Gaussianox| </a>
-        </ul>
-      <li><H3>  UTILIDADES BATCH </h3>
-        <ul>
-          <li> <a href = "http://steve-jansen.github.io/guides/windows-batch-scripting/part-1-getting-started.html"> Otro ejemplo inicial </a>
-          <li> <a href = "http://steve-jansen.github.io/guides/windows-batch-scripting/part-2-variables.html"> Variables </a>
-          <li> <a href = "http://steve-jansen.github.io/guides/windows-batch-scripting/part-5-if-then-conditionals.html"> Condicionales </a>
-          <li> <a href = "http://steve-jansen.github.io/guides/windows-batch-scripting/part-6-loops.html"> Ciclos </a>
-          <li> <a href = "http://steve-jansen.github.io/guides/windows-batch-scripting/part-7-functions.html"> Funciones </a>
-        </ul>
-      </ul>         
-    i18n: week_9_desc
-  date:
-    detail: Semana 9
-    i18n: week_9_desc
-  job: 
-    detail: Macros - SPSS
-    i18n: week_9_jon
-  icon: fa-plus-square
-- name:
-    detail:
-    i18n: 
-  desc: 
-    detail: 
-      <ul>
-      <li><H3>  MACROS SPSS </h3>
-        <ul>
-          <li> <a href = "https://raw.githubusercontent.com/JoraJora/Jalpc/master/Codigos/datosRegresion.txt"> Datos Para regresión kernel </a>
-          <li> <a href = "http://www.spsstools.net/en/documents/26/KO_MATRIX___END_MATRIX_functions_EN.zip"> Ejemplo de Macros con matrices</a>
-          <li> <a href = "https://raw.githubusercontent.com/JoraJora/Jalpc/master/Codigos/Macros_spss/regresionKernels.sps">  Implementación Regresión Kernel</a>
-          <li> <a href = "https://raw.githubusercontent.com/JoraJora/Jalpc/master/Codigos/Macros_spss/gaussKernel.sps"> Implementación Kernel Gaussiano </a>
-        </ul>
-      </ul>         
-    i18n: week_10_desc
-  date:
-    detail: Semana 10
-    i18n: week_10_desc
-  job: 
-    detail: Macros - SPSS
-    i18n: week_10_jon
-  icon: fa-plus-square
+
+
+
+
+
+

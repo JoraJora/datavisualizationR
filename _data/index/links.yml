@@ -1,30 +1,30 @@
 # links section data
-- last_name: SPSS
-  first_name: Raynald's Tools
-  desc: Colección de códigos y de macros para implementar soluciones de manejo de datos y problemas análiticos
-  website: http://spsstools.net/en
+- last_name: Peng
+  first_name: Roger D (2015)
+  desc: R Programming for Data Science
+  website: https://www.cs.upc.edu/~robert/teaching/estadistica/rprogramming.pdf
 
-- last_name: SPSS
-  first_name: Link de MEGA
-  desc: Descargar y probar SPSS
-  website: https://mega.nz/#!tgQwjJJK!nIVscc601_zD2aYhA4nJwwT3OArYtaNsuAgLPrX8hUE
+- last_name: Tutorials
+  first_name: Data Camp
+  desc: Data Camp Tutorials
+  website: https://www.datacamp.com/courses/tech:r/topic:data_visualization
 
-- last_name: SPSS
-  first_name: Link de libro SPSS
-  desc: Raynald Libro
-  website: http://spsstools.net/static/spss-programming-book/DMbook19.zip
+- last_name: Programación en R
+  first_name: ggplot2
+  desc: Documentación ggplot2
+  website: http://ms.mcmaster.ca/~bolker/misc/ggplot2-book.pdf
   
-- last_name: SAS
-  first_name: University Edition
-  desc: Descargar y probar SAS Studio
-  website: https://www.sas.com/en_us/software/university-edition.html
+- last_name: Programación en R
+  first_name: Knitr
+  desc: Documentación Markddown (knitr)
+  website: https://yihui.name/knitr/
 
-- last_name: Descargar SAS
-  first_name: link de MEGA 
-  desc: Support Jalpc
-  website: https://igorlatsik13.blogspot.com.co/2015/02/sas-94-multi-licencia-mega.html
+- last_name: Programación en R
+  first_name: Markdown
+  desc: Documentación R markdown
+  website: http://rmarkdown.rstudio.com/
 
-- last_name: Descargar VirtualBox
-  first_name: virtualización de SO
-  desc: Descargar y probar VirtualBox
-  website: https://www.virtualbox.org/
+- last_name: Progrmación en R
+  first_name: Shiny
+  desc: Documentación oficial Shiny
+  website: https://shiny.rstudio.com/articles/
