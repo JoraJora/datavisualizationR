@@ -65,7 +65,7 @@
             </ul>
             <h3> Data Camp 
             <ul>
-              <li> <a href = "https://www.datacamp.com/courses/data-table-data-manipulation-r-tutorial"> dplyr </a>
+              <li> <a href = "https://www.datacamp.com/courses/data-table-data-manipulation-r-tutorial"> data.table </a>
             </UL>
 
     i18n: week_3_desc
