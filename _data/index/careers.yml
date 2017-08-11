@@ -7,8 +7,8 @@
     detail: <h3> Introducción </h3> 
             <ul> 
               <li> Presentación de Curso
-              <li> Introducción a la Programación 
-              <li> Elementos basicos de R
+              <li> <a href = "http://www.deakin.edu.au/sebe/it/codecomp/sit102/scr/Slides/SIT102-02-Introduction-to-SIT102.pdf"> Introducción a la Programación  </a>
+              <li> <a href = "http://jkcray.maths.ul.ie/ms4024/R-Slides.pdf"> Elementos basicos de R </a>
               <li> El propósito de la visualización 
               <ul> 
                 <li> El propósito de la visualización
@@ -37,11 +37,35 @@
               <li> Paquete "plyr", "dplyr" <a href = "http://ict.udlap.mx/people/carlos/is341/bases03.html"> (recurso) </a>
               <li> Funcipones especiales
               <li> Ejemplos de Uso
-              <li> data.table + dplyr = dtplyr
+              <li> Filtro y Sumarización (Group_by)
             </ul>
             <h3> Data Camp 
             <ul>
               <li> <a href = "https://www.datacamp.com/courses/dplyr-data-manipulation-r-tutorial"> dplyr </a>
+            </UL>
+
+    i18n: week_2_desc
+  date:
+    detail: Semana 2
+    i18n: week_2_desc
+  job:
+    detail: Programación en R
+    i18n: week_2_jon
+  icon: fa-plus-square
+- name:
+    detail: 
+    i18n: 
+  desc:
+    detail: <h3> Programación en R (II Parte Agregaciones) </h3> 
+            <UL>
+              <li> Paquete "data.table"
+              <li> Funcipones especiales
+              <li> Ejemplos de Uso
+              <li> data.table + dplyr = dtplyr
+            </ul>
+            <h3> Data Camp 
+            <ul>
+              <li> <a href = "https://www.datacamp.com/courses/data-table-data-manipulation-r-tutorial"> dplyr </a>
             </UL>
 
     i18n: week_3_desc
