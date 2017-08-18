@@ -34,9 +34,9 @@
   desc:
     detail: <h3> Programación en R (I Parte Agregaciones) </h3> 
             <UL>
-              <li> Paquete "plyr", "dplyr" <a href = "http://ict.udlap.mx/people/carlos/is341/bases03.html"> (recurso) </a>
+              <li> Paquete "plyr", "dplyr" <a href = "https://raw.githubusercontent.com/JoraJora/datavisualizationR/master/Codigos/dplyr/dplyr.pdf"> (recurso) </a>
               <li> Funcipones especiales
-              <li> Ejemplos de Uso
+              <li> <a href = "https://raw.githubusercontent.com/JoraJora/datavisualizationR/master/Codigos/dplyr/chicago.zip"> Ejemplos de Uso </a>
               <li> Filtro y Sumarización (Group_by)
             </ul>
             <h3> Data Camp 
