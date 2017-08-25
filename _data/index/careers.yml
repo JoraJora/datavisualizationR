@@ -58,11 +58,11 @@
   desc:
     detail: <h3> Programación en R (II Parte Agregaciones) </h3> 
             <UL>
-              <li> Paquete "data.table"
-              <li> Funcipones especiales
-              <li> Ejemplos de Uso
+              <li> Paquete "data.table" <a href = "https://raw.githubusercontent.com/JoraJora/datavisualizationR/master/Codigos/user2017-data.table-tutorial-master/arun-amsterdam-jan-20-2017.pdf"> (recurso) </a>
+              <li> Funcipones especiales <a href = "https://raw.githubusercontent.com/JoraJora/datavisualizationR/master/Codigos/user2017-data.table-tutorial-master/user2017-arun-tutorial.pdf"> (recurso) </a>
+              <li> <a href = "https://raw.githubusercontent.com/JoraJora/datavisualizationR/master/Codigos/user2017-data.table-tutorial-master\exercises.zip"> Ejemplos de Uso </a>
               <li> data.table + dplyr = dtplyr
-            </ul>
+             </ul>
             <h3> Data Camp 
             <ul>
               <li> <a href = "https://www.datacamp.com/courses/data-table-data-manipulation-r-tutorial"> data.table </a>
