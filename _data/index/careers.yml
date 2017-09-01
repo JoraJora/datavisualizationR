@@ -38,7 +38,7 @@
               <li> Funcipones especiales
               <li> <a href = "https://raw.githubusercontent.com/JoraJora/datavisualizationR/master/Codigos/dplyr/chicago.zip"> Ejemplos de Uso </a>
               <li> Filtro y Sumarización (Group_by)
-              <li> https://raw.githubusercontent.com/JoraJora/datavisualizationR/master/Codigos/dplyr/chicago.R"> Ejemplo de clase </a>
+              <li> <a href = "https://raw.githubusercontent.com/JoraJora/datavisualizationR/master/Codigos/dplyr/chicago.R"> Ejemplo de clase </a>
             </ul>
             <h3> Data Camp 
             <ul>
@@ -83,8 +83,8 @@
   desc:
     detail: <h3> Programación en R (Funciones) </h3>
             <ul> 
-              <li> Cuando y como se deben escribir funciones
-              <li> Programación funcional
+              <li> <a href = "https://www.infor.uva.es/~cvaca/asigs/docpar/intro.pdf"> Paradigmas de Programación </a>
+              <li> <a href = "https://www.slideshare.net/DASpringate/functional-programming-in-r"> Programación funcional en R  </a>
               <li> Entras y salidas avanzadas
             </ul>
             <h3> Data Camp 
