@@ -106,11 +106,10 @@
   desc:
     detail: <h3> Programación en R (visualización I) </h3>
             <ul> 
-              <li> Paquete Ggplot2 
-              <li> Graficos disponibles
+              <li> <a href = "https://es.slideshare.net/izahn/rgraphics-12040991"> Paquete Ggplot2  </a>
+              <li> <a href = "http://www.r-graph-gallery.com/portfolio/ggplot2-package/"> Graficos disponibles </a>
               <li> Elementos de un grafico (Data, Aesthetics y Geometries)
               <li> Mas elementos de un grafico (Coordinates, Facets y Themes)
-              <li> Mas graficos disponibles
             </ul>
             <h3> Data Camp 
             <ul>
