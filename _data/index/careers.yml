@@ -135,7 +135,7 @@
             <ul> 
               <li> <a href = "https://es.slideshare.net/izahn/rgraphics-12040991"> Paquete Ggplot2  </a>
               <li> <a href = "https://www.rstudio.com/wp-content/uploads/2016/11/ggplot2-cheatsheet-2.1.pdf"> Cheatsheet ggplot2 </a>
-              <li> <a href = "https://github.com/rstudio/cheatsheets/raw/master/source/pdfs/datatransformation-cheatsheet.pdf"> Cheatsheet dplyr </a>
+              <li> <a href = "https://github.com/rstudio/cheatsheets/raw/master/source/pdfs/data-transformation-cheatsheet.pdf"> Cheatsheet dplyr </a>
               <li> <a href = "http://www.ggplot2-exts.org/ggiraph.html"> Extensión del paquete ggplot2 </a>
               <li> <a href = "http://cs.boisestate.edu/~alark/cs564/lectures/Design_Principles.pdf"> Principios del Diseño </a>
             </ul>
