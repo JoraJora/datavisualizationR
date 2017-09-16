@@ -131,17 +131,20 @@
     detail: 
     i18n: 
   desc:
-    detail: <h3> Programación en R (Reportes) </h3>
+    detail: <h3> Programación en R (visualización II) </h3>
             <ul> 
-              <li> Introducción al lenguaje de marcadores
-              <li> Estructura general
-              <li> R Markdown y ejemplos de uso
-              <li> Construcción de reportes
+              <li> <a href = "https://es.slideshare.net/izahn/rgraphics-12040991"> Paquete Ggplot2  </a>
+              <li> <a href = "https://www.rstudio.com/wp-content/uploads/2016/11/ggplot2-cheatsheet-2.1.pdf"> Cheatsheet ggplot2 </a>
+              <li> <a href = "https://github.com/rstudio/cheatsheets/raw/master/source/pdfs/datatransformation-cheatsheet.pdf"> Cheatsheet dplyr </a>
+              <li> <a href = "http://www.ggplot2-exts.org/ggiraph.html"> Extensión del paquete ggplot2 </a>
+              <li> <a href = "http://cs.boisestate.edu/~alark/cs564/lectures/Design_Principles.pdf"> Principios del Diseño </a>
             </ul>
             <h3> Data Camp 
             <ul>
-              <li> <a href = "https://www.datacamp.com/courses/reporting-with-r-markdown"> R Markdown </a>
-              <li> (BONUS) <a href = "https://github.com/IRkernel/IRkernel"> Desplegar un Jupyter notebook con R </a>
+              <li> <a href = "https://www.datacamp.com/courses/data-visualization-with-ggplot2-part-1"> ggplot2 (Parte 1) </a>
+              <li> <a href = "https://www.datacamp.com/courses/data-visualization-with-ggplot2-part-2"> ggplot2 (Parte 2) </a>
+              <li> <a href = "https://www.datacamp.com/courses/data-visualization-with-ggplot2-part-3"> ggplot2 (Parte 3) </a>
+              <li> (BONUS)<a href = "https://www.datacamp.com/courses/data-visualization-in-r-with-lattice"> lattice </a>
             </UL>
 
     i18n: week_6_desc
@@ -149,14 +152,40 @@
     detail: Semana 6
     i18n: week_6_desc
   job:
-    detail: Programación en R
+    detail: Visualización en R
     i18n: week_6_jon
   icon: fa-plus-square
 - name:
     detail: 
     i18n: 
   desc:
-    detail: <h3> Programación en R (visualización II) </h3>
+    detail: <h3> Programación en R (Reportes) </h3>
+            <ul> 
+              <li> Introducción al lenguaje de marcadores
+              <li> Estructura general
+              <li> R Markdown y ejemplos de uso
+              <li> Construcción de reportes
+            </ul>
+            <h3> Parcial </h3>
+            <h3> Data Camp </h3>
+            <ul>
+              <li> <a href = "https://www.datacamp.com/courses/reporting-with-r-markdown"> R Markdown </a>
+              <li> (BONUS) <a href = "https://github.com/IRkernel/IRkernel"> Desplegar un Jupyter notebook con R </a>
+            </UL>
+
+    i18n: week_7_desc
+  date:
+    detail: Semana 7
+    i18n: week_7_desc
+  job:
+    detail: Programación en R
+    i18n: week_7_jon
+  icon: fa-plus-square
+- name:
+    detail: 
+    i18n: 
+  desc:
+    detail: <h3> Programación en R (visualización III) </h3>
             <ul> 
               <li> Paquete ggvis
               <li> Paquete bokeh
@@ -167,13 +196,13 @@
               <li> <a href = "https://www.datacamp.com/courses/data-visualization-with-ggplot2-part-3"> Writing Functions in R </a>
             </UL>
 
-    i18n: week_7_desc
+    i18n: week_8_desc
   date:
-    detail: Semana 7
-    i18n: week_7_desc
+    detail: Semana 8
+    i18n: week_8_desc
   job:
     detail: Programación en R
-    i18n: week_7_jon
+    i18n: week_8_jon
   icon: fa-plus-square
 
 
