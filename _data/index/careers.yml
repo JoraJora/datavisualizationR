@@ -161,8 +161,9 @@
   desc:
     detail: <h3> Programación en R (Reportes) </h3>
             <ul> 
-              <li> Introducción al lenguaje de marcadores
-              <li> Estructura general
+              <li> <a href = "http://miror-ejd.eu/wp-content/uploads/sites/34/2016/10/Introduction-to-Markdown.pdf">Introducción al lenguaje de marcadores </a>
+              <li> <a href = "https://guides.github.com/pdfs/markdown-cheatsheet-online.pdf"> Sintaxis general </a>
+              <li> <a href = "https://www.rstudio.com/wp-content/uploads/2015/03/rmarkdown-spanish.pdf"> Flujo de Trabajo </a>
               <li> R Markdown y ejemplos de uso
               <li> Construcción de reportes
             </ul>
