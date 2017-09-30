@@ -186,6 +186,23 @@
     detail: 
     i18n: 
   desc:
+    detail: <h3> Programación en R (Reportes) </h3>
+            <ul> 
+              <li> <a href = "http://slidify.org/samples/intro/">Introducción Slidify</a>
+            </ul>
+
+    i18n: week_8_desc
+  date:
+    detail: Semana 7
+    i18n: week_8_desc
+  job:
+    detail: Programación en R
+    i18n: week_8_jon
+  icon: fa-plus-square
+- name:
+    detail: 
+    i18n: 
+  desc:
     detail: <h3> Programación en R (visualización III) </h3>
             <ul> 
               <li> Paquete ggvis
@@ -197,13 +214,13 @@
               <li> <a href = "https://www.datacamp.com/courses/data-visualization-with-ggplot2-part-3"> Writing Functions in R </a>
             </UL>
 
-    i18n: week_8_desc
+    i18n: week_9_desc
   date:
     detail: Semana 8
-    i18n: week_8_desc
+    i18n: week_9_desc
   job:
     detail: Programación en R
-    i18n: week_8_jon
+    i18n: week_9_jon
   icon: fa-plus-square
 
 
