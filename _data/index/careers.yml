@@ -186,11 +186,12 @@
     detail: 
     i18n: 
   desc:
-    detail: <h3> Programación en R (Reportes) </h3>
+    detail: <h3> Programación en R (Reportes Slidify) </h3>
             <ul> 
               <li> <a href = "http://slidify.org/samples/intro/">Introducción Slidify</a>
+              <li> <a href = "http://sub-estadistica-icfes.github.io/Introduction-Git/"> Introducción a git </a>
+              <li> <a href = "https://raw.githubusercontent.com/JoraJora/datavisualizationR/master/Codigos\EjemplosRMARKDOWN\conectar-rstudio-git.pdf"> Taller "Conexión Rstudio con Github" </a>
             </ul>
-
     i18n: week_8_desc
   date:
     detail: Semana 7
