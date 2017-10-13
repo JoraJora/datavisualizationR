@@ -7,8 +7,8 @@
     detail: <h3> Introducción </h3> 
             <ul> 
               <li> Presentación de Curso
-              <li> <a href = "http://www.deakin.edu.au/sebe/it/codecomp/sit102/scr/Slides/SIT102-02-Introduction-to-SIT102.pdf"> Introducción a la Programación  </a>
-              <li> <a href = "http://jkcray.maths.ul.ie/ms4024/R-Slides.pdf"> Elementos basicos de R </a>
+              <li> <a target="_blank" href = "http://www.deakin.edu.au/sebe/it/codecomp/sit102/scr/Slides/SIT102-02-Introduction-to-SIT102.pdf"> Introducción a la Programación  </a>
+              <li> <a target="_blank" href = "http://jkcray.maths.ul.ie/ms4024/R-Slides.pdf"> Elementos basicos de R </a>
               <li> El propósito de la visualización 
               <ul> 
                 <li> El propósito de la visualización
@@ -17,8 +17,8 @@
             </ul>
             <h3> Data Camp 
             <ul>
-              <li> <a href = "https://www.datacamp.com/courses/free-introduction-to-r"> Curso de basico de R </a>
-              <li> <a href = "https://www.datacamp.com/courses/intermediate-r"> Curso de intermedio de R </a>
+              <li> <a target="_blank" href = "https://www.datacamp.com/courses/free-introduction-to-r"> Curso de basico de R </a>
+              <li> <a target="_blank" href = "https://www.datacamp.com/courses/intermediate-r"> Curso de intermedio de R </a>
             </UL>
     i18n: week_1_desc
   date:
@@ -34,15 +34,15 @@
   desc:
     detail: <h3> Programación en R (I Parte Agregaciones) </h3> 
             <UL>
-              <li> Paquete "plyr", "dplyr" <a href = "https://raw.githubusercontent.com/JoraJora/datavisualizationR/master/Codigos/dplyr/dplyr.pdf"> (recurso) </a>
+              <li> Paquete "plyr", "dplyr" <a target="_blank" href = "https://raw.githubusercontent.com/JoraJora/datavisualizationR/master/Codigos/dplyr/dplyr.pdf"> (recurso) </a>
               <li> Funcipones especiales
-              <li> <a href = "https://raw.githubusercontent.com/JoraJora/datavisualizationR/master/Codigos/dplyr/chicago.zip"> Ejemplos de Uso </a>
+              <li> <a target="_blank" href = "https://raw.githubusercontent.com/JoraJora/datavisualizationR/master/Codigos/dplyr/chicago.zip"> Ejemplos de Uso </a>
               <li> Filtro y Sumarización (Group_by)
-              <li> <a href = "https://raw.githubusercontent.com/JoraJora/datavisualizationR/master/Codigos/dplyr/chicago.R"> Ejemplo de clase </a>
+              <li> <a target="_blank" href = "https://raw.githubusercontent.com/JoraJora/datavisualizationR/master/Codigos/dplyr/chicago.R"> Ejemplo de clase </a>
             </ul>
             <h3> Data Camp 
             <ul>
-              <li> <a href = "https://www.datacamp.com/courses/dplyr-data-manipulation-r-tutorial"> dplyr </a>
+              <li> <a target="_blank" href = "https://www.datacamp.com/courses/dplyr-data-manipulation-r-tutorial"> dplyr </a>
             </UL>
 
     i18n: week_2_desc
@@ -59,14 +59,14 @@
   desc:
     detail: <h3> Programación en R (II Parte Agregaciones) </h3> 
             <UL>
-              <li> Paquete "data.table" <a href = "https://raw.githubusercontent.com/JoraJora/datavisualizationR/master/Codigos/user2017-data.table-tutorial-master/arun-amsterdam-jan-20-2017.pdf"> (recurso) </a>
-              <li> Funcipones especiales <a href = "https://raw.githubusercontent.com/JoraJora/datavisualizationR/master/Codigos/user2017-data.table-tutorial-master/user2017-arun-tutorial.pdf"> (recurso) </a>
-              <li> <a href = "https://raw.githubusercontent.com/JoraJora/datavisualizationR/master/Codigos/user2017-data.table-tutorial-master\exercises.zip"> Ejemplos de Uso </a>
+              <li> Paquete "data.table" <a target="_blank" href = "https://raw.githubusercontent.com/JoraJora/datavisualizationR/master/Codigos/user2017-data.table-tutorial-master/arun-amsterdam-jan-20-2017.pdf"> (recurso) </a>
+              <li> Funcipones especiales <a target="_blank" href = "https://raw.githubusercontent.com/JoraJora/datavisualizationR/master/Codigos/user2017-data.table-tutorial-master/user2017-arun-tutorial.pdf"> (recurso) </a>
+              <li> <a target="_blank" href = "https://raw.githubusercontent.com/JoraJora/datavisualizationR/master/Codigos/user2017-data.table-tutorial-master\exercises.zip"> Ejemplos de Uso </a>
               <li> data.table + dplyr = dtplyr
              </ul>
             <h3> Data Camp 
             <ul>
-              <li> <a href = "https://www.datacamp.com/courses/data-table-data-manipulation-r-tutorial"> data.table </a>
+              <li> <a target="_blank" href = "https://www.datacamp.com/courses/data-table-data-manipulation-r-tutorial"> data.table </a>
             </UL>
 
     i18n: week_3_desc
@@ -83,13 +83,13 @@
   desc:
     detail: <h3> Programación en R (Funciones) </h3>
             <ul> 
-              <li> <a href = "https://www.infor.uva.es/~cvaca/asigs/docpar/intro.pdf"> Paradigmas de Programación </a>
-              <li> <a href = "https://www.slideshare.net/DASpringate/functional-programming-in-r"> Programación funcional en R  </a>
+              <li> <a target="_blank" href = "https://www.infor.uva.es/~cvaca/asigs/docpar/intro.pdf"> Paradigmas de Programación </a>
+              <li> <a target="_blank" href = "https://www.slideshare.net/DASpringate/functional-programming-in-r"> Programación funcional en R  </a>
               <li> Entras y salidas avanzadas
             </ul>
             <h3> Data Camp 
             <ul>
-              <li> <a href = "https://www.datacamp.com/courses/writing-functions-in-r"> Writing Functions in R </a>
+              <li> <a target="_blank" href = "https://www.datacamp.com/courses/writing-functions-in-r"> Writing Functions in R </a>
             </UL>
 
     i18n: week_4_desc
@@ -106,17 +106,17 @@
   desc:
     detail: <h3> Programación en R (visualización I) </h3>
             <ul> 
-              <li> <a href = "https://es.slideshare.net/izahn/rgraphics-12040991"> Paquete Ggplot2  </a>
-              <li> <a href = "http://www.r-graph-gallery.com/portfolio/ggplot2-package/"> Graficos disponibles </a>
+              <li> <a target="_blank" href = "https://es.slideshare.net/izahn/rgraphics-12040991"> Paquete Ggplot2  </a>
+              <li> <a target="_blank" href = "http://www.r-graph-gallery.com/portfolio/ggplot2-package/"> Graficos disponibles </a>
               <li> Elementos de un grafico (Data, Aesthetics y Geometries)
               <li> Mas elementos de un grafico (Coordinates, Facets y Themes)
             </ul>
             <h3> Data Camp 
             <ul>
-              <li> <a href = "https://www.datacamp.com/courses/data-visualization-with-ggplot2-part-1"> ggplot2 (Parte 1) </a>
-              <li> <a href = "https://www.datacamp.com/courses/data-visualization-with-ggplot2-part-2"> ggplot2 (Parte 2) </a>
-              <li> <a href = "https://www.datacamp.com/courses/data-visualization-with-ggplot2-part-3"> ggplot2 (Parte 3) </a>
-              <li> (BONUS)<a href = "https://www.datacamp.com/courses/data-visualization-in-r-with-lattice"> lattice </a>
+              <li> <a target="_blank" href = "https://www.datacamp.com/courses/data-visualization-with-ggplot2-part-1"> ggplot2 (Parte 1) </a>
+              <li> <a target="_blank" href = "https://www.datacamp.com/courses/data-visualization-with-ggplot2-part-2"> ggplot2 (Parte 2) </a>
+              <li> <a target="_blank" href = "https://www.datacamp.com/courses/data-visualization-with-ggplot2-part-3"> ggplot2 (Parte 3) </a>
+              <li> (BONUS)<a target="_blank" href = "https://www.datacamp.com/courses/data-visualization-in-r-with-lattice"> lattice </a>
             </UL>
 
     i18n: week_5_desc
@@ -133,18 +133,18 @@
   desc:
     detail: <h3> Programación en R (visualización II) </h3>
             <ul> 
-              <li> <a href = "https://es.slideshare.net/izahn/rgraphics-12040991"> Paquete Ggplot2  </a>
-              <li> <a href = "https://www.rstudio.com/wp-content/uploads/2016/11/ggplot2-cheatsheet-2.1.pdf"> Cheatsheet ggplot2 </a>
-              <li> <a href = "https://github.com/rstudio/cheatsheets/raw/master/source/pdfs/data-transformation-cheatsheet.pdf"> Cheatsheet dplyr </a>
-              <li> <a href = "http://www.ggplot2-exts.org/ggiraph.html"> Extensión del paquete ggplot2 </a>
-              <li> <a href = "http://cs.boisestate.edu/~alark/cs564/lectures/Design_Principles.pdf"> Principios del Diseño </a>
+              <li> <a target="_blank" href = "https://es.slideshare.net/izahn/rgraphics-12040991"> Paquete Ggplot2  </a>
+              <li> <a target="_blank" href = "https://www.rstudio.com/wp-content/uploads/2016/11/ggplot2-cheatsheet-2.1.pdf"> Cheatsheet ggplot2 </a>
+              <li> <a target="_blank" href = "https://github.com/rstudio/cheatsheets/raw/master/source/pdfs/data-transformation-cheatsheet.pdf"> Cheatsheet dplyr </a>
+              <li> <a target="_blank" href = "http://www.ggplot2-exts.org/ggiraph.html"> Extensión del paquete ggplot2 </a>
+              <li> <a target="_blank" href = "http://cs.boisestate.edu/~alark/cs564/lectures/Design_Principles.pdf"> Principios del Diseño </a>
             </ul>
             <h3> Data Camp 
             <ul>
-              <li> <a href = "https://www.datacamp.com/courses/data-visualization-with-ggplot2-part-1"> ggplot2 (Parte 1) </a>
-              <li> <a href = "https://www.datacamp.com/courses/data-visualization-with-ggplot2-part-2"> ggplot2 (Parte 2) </a>
-              <li> <a href = "https://www.datacamp.com/courses/data-visualization-with-ggplot2-part-3"> ggplot2 (Parte 3) </a>
-              <li> (BONUS)<a href = "https://www.datacamp.com/courses/data-visualization-in-r-with-lattice"> lattice </a>
+              <li> <a target="_blank" href = "https://www.datacamp.com/courses/data-visualization-with-ggplot2-part-1"> ggplot2 (Parte 1) </a>
+              <li> <a target="_blank" href = "https://www.datacamp.com/courses/data-visualization-with-ggplot2-part-2"> ggplot2 (Parte 2) </a>
+              <li> <a target="_blank" href = "https://www.datacamp.com/courses/data-visualization-with-ggplot2-part-3"> ggplot2 (Parte 3) </a>
+              <li> (BONUS)<a target="_blank" href = "https://www.datacamp.com/courses/data-visualization-in-r-with-lattice"> lattice </a>
             </UL>
 
     i18n: week_6_desc
@@ -159,19 +159,19 @@
     detail: 
     i18n: 
   desc:
-    detail: <h3> Programación en R (Reportes) </h3>
+    detail: <h3> Programación en R (Reportes I) </h3>
             <ul> 
-              <li> <a href = "http://miror-ejd.eu/wp-content/uploads/sites/34/2016/10/Introduction-to-Markdown.pdf">Introducción al lenguaje de marcadores </a>
-              <li> <a href = "https://guides.github.com/pdfs/markdown-cheatsheet-online.pdf"> Sintaxis general </a>
-              <li> <a href = "https://www.rstudio.com/wp-content/uploads/2015/03/rmarkdown-spanish.pdf"> Flujo de Trabajo </a>
+              <li> <a target="_blank" href = "http://miror-ejd.eu/wp-content/uploads/sites/34/2016/10/Introduction-to-Markdown.pdf">Introducción al lenguaje de marcadores </a>
+              <li> <a target="_blank" href = "https://guides.github.com/pdfs/markdown-cheatsheet-online.pdf"> Sintaxis general </a>
+              <li> <a target="_blank" href = "https://www.rstudio.com/wp-content/uploads/2015/03/rmarkdown-spanish.pdf"> Flujo de Trabajo </a>
               <li> R Markdown y ejemplos de uso
               <li> Construcción de reportes
             </ul>
-            <h3> <a href = "https://goo.gl/forms/rgvOd4m1BDN168St1"> Parcial </a> </h3>
+            <h3> <a target="_blank" href = "https://goo.gl/forms/rgvOd4m1BDN168St1"> Parcial </a> </h3>
             <h3> Data Camp </h3>
             <ul>
-              <li> <a href = "https://www.datacamp.com/courses/reporting-with-r-markdown"> R Markdown </a>
-              <li> (BONUS) <a href = "https://github.com/IRkernel/IRkernel"> Desplegar un Jupyter notebook con R </a>
+              <li> <a target="_blank" href = "https://www.datacamp.com/courses/reporting-with-r-markdown"> R Markdown </a>
+              <li> (BONUS) <a target="_blank" href = "https://github.com/IRkernel/IRkernel"> Desplegar un Jupyter notebook con R </a>
             </UL>
 
     i18n: week_7_desc
@@ -188,13 +188,13 @@
   desc:
     detail: <h3> Programación en R (Reportes Slidify) </h3>
             <ul> 
-              <li> <a href = "http://slidify.org/samples/intro/">Introducción Slidify</a>
-              <li> <a href = "http://sub-estadistica-icfes.github.io/Introduction-Git/"> Introducción a git </a>
-              <li> <a href = "https://raw.githubusercontent.com/JoraJora/datavisualizationR/master/Codigos\EjemplosRMARKDOWN\conectar-rstudio-git.pdf"> Taller "Conexión Rstudio con Github" </a>
+              <li> <a target="_blank" href = "http://slidify.org/samples/intro/">Introducción Slidify</a>
+              <li> <a target="_blank" href = "http://sub-estadistica-icfes.github.io/Introduction-Git/"> Introducción a git </a>
+              <li> <a target="_blank" href = "https://raw.githubusercontent.com/JoraJora/datavisualizationR/master/Codigos\EjemplosRMARKDOWN\conectar-rstudio-git.pdf"> Taller "Conexión Rstudio con Github" </a>
             </ul>
     i18n: week_8_desc
   date:
-    detail: Semana 7
+    detail: Semana 8
     i18n: week_8_desc
   job:
     detail: Programación en R
@@ -206,22 +206,37 @@
   desc:
     detail: <h3> Programación en R (visualización III) </h3>
             <ul> 
-              <li> Paquete ggvis
-              <li> Paquete bokeh
-              <li> Htmlwidgets + flexdashboard
+              <li> <a target= "_blank" href = "http://ggvis.rstudio.com/"> Ejemplo ggvis</a>
+              <li> <a target="_blank" href = "http://www.londonr.org/presentations/2014/11/LondonR_-_Introduction_to_ggvis_-_Aimee_Gott_-_20141125.pdf"> Paquete ggvis </a>
+              <li> <a target="_blank" href = "https://cran.r-project.org/web/packages/googleVis/vignettes/googleVis_examples.html"> Paquete googleVis </a>
+              <li> <a target="_blank" href = "http://hafen.github.io/rbokeh/"> Paquete bokeh </a>
             </ul>
-            <h3> Data Camp 
-            <ul>
-              <li> <a href = "https://www.datacamp.com/courses/data-visualization-with-ggplot2-part-3"> Writing Functions in R </a>
-            </UL>
-
     i18n: week_9_desc
   date:
-    detail: Semana 8
+    detail: Semana 9
     i18n: week_9_desc
   job:
     detail: Programación en R
     i18n: week_9_jon
+  icon: fa-plus-square
+- name:
+    detail: 
+    i18n: 
+  desc:
+    detail: <h3> Programación en R (Reportes II) </h3>
+            <ul> 
+              <li> Ejemplo de reporte HTML (<a target="_blank" href = ""> Código </a>)
+              <li> <a target="_blank" href = "http://www.htmlwidgets.org/"> Htmlwidgets</a>
+              <li> Reportes en EXCEL (Paquete xlsx)
+              <li>
+            </ul>
+    i18n: week_10_desc
+  date:
+    detail: Semana 10
+    i18n: week_10_desc
+  job:
+    detail: Programación en R
+    i18n: week_10_jon
   icon: fa-plus-square
 
 
