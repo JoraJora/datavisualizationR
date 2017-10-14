@@ -211,6 +211,11 @@
               <li> <a target="_blank" href = "https://cran.r-project.org/web/packages/googleVis/vignettes/googleVis_examples.html"> Paquete googleVis </a>
               <li> <a target="_blank" href = "http://hafen.github.io/rbokeh/"> Paquete bokeh </a>
             </ul>
+            <h3> Taller II</h3>
+            <ul>
+              <li> <a target="_blank" href="https://raw.githubusercontent.com/JoraJora/datavisualizationR/master/Codigos/taller-ii-visualizacion.pdf"> Ejemplo paquete xlsx</a>
+            </UL>
+
     i18n: week_9_desc
   date:
     detail: Semana 9
@@ -227,9 +232,13 @@
             <ul> 
               <li> Ejemplo de reporte HTML (<a target="_blank" href = "https://raw.githubusercontent.com/JoraJora/datavisualizationR/master/Codigos/rCharts_nyt_home_price-gh-pages.zip"> Código </a>)
               <li> <a target="_blank" href = "http://www.htmlwidgets.org/"> Htmlwidgets</a>
-              <li> Reportes en EXCEL (Paquete xlsx)
-              <li>
+              <li> Reportes en EXCEL <a href = "http://www.sthda.com/english/wiki/r-xlsx-package-a-quick-start-guide-to-manipulate-excel-files-in-r">(Guía paquete xlsx)</a>
             </ul>
+            <h3> Taller III </h3>
+            <ul>
+              <li> <a target="_blank" href="https://raw.githubusercontent.com/JoraJora/datavisualizationR/master/Codigos/TallerExcel/taller-iii-visualizacion.pdf"> Ejemplo paquete xlsx</a>
+            </UL>
+
     i18n: week_10_desc
   date:
     detail: Semana 10
