@@ -25,6 +25,10 @@ h1,h2,h3,h4 {
 }
 
 .container { width: 1000px; }
+h1 {
+  background-color: #58ACFA;
+  text-indent: 0px; 
+}
 h3 {
   background-color: #D4DAEC;
   text-indent: 100px; 
@@ -56,6 +60,9 @@ opts_chunk$set(message = FALSE, warning = FALSE, error = FALSE, tidy = FALSE, ca
 
 ### Another Favorite from NYT  
 
+<a target="_blank" href = "http://blog.visual.ly/10-things-you-can-learn-from-the-new-york-times-data-visualizations/">
+ESTE ES MI LINK </a>
+
 I think we all know the [data visualization team at NYT](http://blog.visual.ly/10-things-you-can-learn-from-the-new-york-times-data-visualizations/) is simply amazing.  Earlier this year in my post [d3 <- R with rCharts and slidify](http://timelyportfolio.blogspot.com/2013/04/d3-r-with-rcharts-and-slidify.html) I adapted and recreated the [512 Paths to the White House](http://www.nytimes.com/interactive/2012/11/02/us/politics/paths-to-the-white-house.html) to work with `R` data through [`rCharts`](http://rcharts.io/site).  Unfortunately, I was not creative enough to think of other data sets to plug into the visualization.  When Scott Murray tweeted, 
 
 <br/>
@@ -75,6 +82,9 @@ I immediately knew the [Case Shiller Home Price Index visualization](http://www.
 As I mentioned above, this visualization works well with any cumulative growth time series, so let's apply it to the `managers` dataset supplied by the `PerformanceAnalytics` package.
 
 ```{r echo = F, eval = F, results = 'asis'}
+
+require(rCharts)
+require(reshape2)
 #I include this in case you want to create the original
 p1 <- rCharts$new()
 p1$setLib('libraries/widgets/nyt_home')
@@ -118,7 +128,7 @@ managers.melt[,"date"] <- format(managers.melt[,"date"],format = "%Y-%m-%d")
 ```
 
 <h4>Draw The Graph</h4>
-```{r}
+```{r,  echo=FALSE, cache=T, results='asis', comment=NA}
 require(rCharts)
 p2 <- rCharts$new()
 p2$setLib('libraries/widgets/nyt_home')
@@ -129,8 +139,8 @@ p2$set(
   data = managers.melt,
   groups = "manager"
 )
-cat(noquote(p2$html()))
-```
+p2$print('chart2', include_assets=T)
+``` 
 
 ### Thanks
 As I hope you can tell, this post was more a function of the efforts of others than of my own.
