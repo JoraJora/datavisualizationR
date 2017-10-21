@@ -1,0 +1,471 @@
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+
+<meta charset="utf-8">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="generator" content="pandoc" />
+
+
+<meta name="author" content="NN" />
+
+
+<title>stackoverflow</title>
+
+<script src="index_files/jquery-1.11.3/jquery.min.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link href="index_files/bootstrap-3.3.5/css/bootstrap.min.css" rel="stylesheet" />
+<script src="index_files/bootstrap-3.3.5/js/bootstrap.min.js"></script>
+<script src="index_files/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
+<script src="index_files/bootstrap-3.3.5/shim/respond.min.js"></script>
+<script src="index_files/navigation-1.1/tabsets.js"></script>
+<link href="index_files/highlightjs-1.1/default.css" rel="stylesheet" />
+<script src="index_files/highlightjs-1.1/highlight.js"></script>
+<script src="index_files/detect-resize-0.5.3/jquery.resize.js"></script>
+<link href="index_files/jquery-ui-1.11.4/jquery-ui.min.css" rel="stylesheet" />
+<script src="index_files/jquery-ui-1.11.4/jquery-ui.min.js"></script>
+<script src="index_files/d3-3.5.2/d3.min.js"></script>
+<script src="index_files/vega-1.4.3/vega.min.js"></script>
+<script src="index_files/lodash-2.2.1/lodash.min.js"></script>
+<script>var lodash = _.noConflict();</script>
+<link href="index_files/ggvis-0.4.3/css/ggvis.css" rel="stylesheet" />
+<script src="index_files/ggvis-0.4.3/js/ggvis.js"></script>
+
+<style type="text/css">code{white-space: pre;}</style>
+<style type="text/css">
+  pre:not([class]) {
+    background-color: white;
+  }
+</style>
+<script type="text/javascript">
+if (window.hljs && document.readyState && document.readyState === "complete") {
+   window.setTimeout(function() {
+      hljs.initHighlighting();
+   }, 0);
+}
+</script>
+
+
+
+<style type="text/css">
+h1 {
+  font-size: 34px;
+}
+h1.title {
+  font-size: 38px;
+}
+h2 {
+  font-size: 30px;
+}
+h3 {
+  font-size: 24px;
+}
+h4 {
+  font-size: 18px;
+}
+h5 {
+  font-size: 16px;
+}
+h6 {
+  font-size: 12px;
+}
+.table th:not([align]) {
+  text-align: left;
+}
+</style>
+
+
+</head>
+
+<body>
+
+<style type = "text/css">
+.main-container {
+  max-width: 940px;
+  margin-left: auto;
+  margin-right: auto;
+}
+code {
+  color: inherit;
+  background-color: rgba(0, 0, 0, 0.04);
+}
+img {
+  max-width:100%;
+  height: auto;
+}
+.tabbed-pane {
+  padding-top: 12px;
+}
+button.code-folding-btn:focus {
+  outline: none;
+}
+</style>
+
+
+
+<div class="container-fluid main-container">
+
+<!-- tabsets -->
+<script>
+$(document).ready(function () {
+  window.buildTabsets("TOC");
+});
+</script>
+
+<!-- code folding -->
+
+
+
+
+
+
+<div class="fluid-row" id="header">
+
+
+
+<h1 class="title toc-ignore">stackoverflow</h1>
+<h4 class="author"><em>NN</em></h4>
+<h4 class="date"><em>7 november 2016</em></h4>
+
+</div>
+
+
+<pre><code>## Warning: Can&#39;t output dynamic/interactive ggvis plots in a knitr document.
+## Generating a static (non-dynamic, non-interactive) version of the plot.</code></pre>
+<div id="plot_id147077762-container" class="ggvis-output-container">
+<div id="plot_id147077762" class="ggvis-output"></div>
+<div class="plot-gear-icon">
+<nav class="ggvis-control">
+<a class="ggvis-dropdown-toggle" title="Controls" onclick="return false;"></a>
+<ul class="ggvis-dropdown">
+<li>
+Renderer: 
+<a id="plot_id147077762_renderer_svg" class="ggvis-renderer-button" onclick="return false;" data-plot-id="plot_id147077762" data-renderer="svg">SVG</a>
+ | 
+<a id="plot_id147077762_renderer_canvas" class="ggvis-renderer-button" onclick="return false;" data-plot-id="plot_id147077762" data-renderer="canvas">Canvas</a>
+</li>
+<li>
+<a id="plot_id147077762_download" class="ggvis-download" data-plot-id="plot_id147077762">Download</a>
+</li>
+</ul>
+</nav>
+</div>
+</div>
+<script type="text/javascript">
+var plot_id147077762_spec = {
+  "data": [
+    {
+      "name": ".0/density1",
+      "format": {
+        "type": "csv",
+        "parse": {
+          "pred_": "number",
+          "resp_": "number"
+        }
+      },
+      "values": "\"pred_\",\"resp_\"\n0.47657276119403,0.000588305747859961\n0.500038857184665,0.000724273083006101\n0.5235049531753,0.000890187050444256\n0.546971049165935,0.00108639939899363\n0.57043714515657,0.00132202357771975\n0.593903241147205,0.00160228383342272\n0.61736933713784,0.00192930604137108\n0.640835433128475,0.0023199484048341\n0.66430152911911,0.00277373177947855\n0.687767625109745,0.00329897159395508\n0.71123372110038,0.00391592050709678\n0.734699817091015,0.00462020854905097\n0.75816591308165,0.00543105642564582\n0.781632009072285,0.00636122905954197\n0.80509810506292,0.00740902990206435\n0.828564201053556,0.00860665962140432\n0.852030297044191,0.00995092627877982\n0.875496393034826,0.0114478928900423\n0.898962489025461,0.0131380338308608\n0.922428585016096,0.0150003605143442\n0.945894681006731,0.0170589587074326\n0.969360776997366,0.0193336408734796\n0.992826872988001,0.0218073027330216\n1.01629296897864,0.0245167988061496\n1.03975906496927,0.0274522481725405\n1.06322516095991,0.030603195001548\n1.08669125695054,0.0340176945552008\n1.11015735294118,0.0376512150966534\n1.13362344893181,0.0415147783711084\n1.15708954492245,0.0456236581361032\n1.18055564091308,0.0499397569574342\n1.20402173690372,0.0544801938390768\n1.22748783289435,0.0592261890143605\n1.25095392888499,0.0641496857588712\n1.27442002487562,0.0692672807927108\n1.29788612086626,0.0745350664949882\n1.32135221685689,0.0799387963862219\n1.34481831284753,0.0854730845112284\n1.36828440883816,0.0910989118296549\n1.3917505048288,0.0968039845543404\n1.41521660081943,0.10256505697024\n1.43868269681007,0.108356278936408\n1.4621487928007,0.114158052603272\n1.48561488879134,0.119947620380374\n1.50908098478197,0.125706241141974\n1.53254708077261,0.131406117950836\n1.55601317676324,0.13703877379697\n1.57947927275388,0.142581704367193\n1.60294536874451,0.148015308507181\n1.62641146473515,0.153339098776507\n1.64987756072578,0.158523637620211\n1.67334365671642,0.163569769293107\n1.69680975270705,0.168477769214092\n1.72027584869769,0.173211707121597\n1.74374194468832,0.177797160097589\n1.76720804067896,0.182221148588676\n1.79067413666959,0.186470128321248\n1.81414023266023,0.190565894223406\n1.83760632865086,0.194489046743278\n1.8610724246415,0.198249312190565\n1.88453852063213,0.201861258388592\n1.90800461662277,0.205299759984403\n1.9314707126134,0.208595101735944\n1.95493680860404,0.21174720371779\n1.97840290459467,0.214746128558949\n2.00186900058531,0.217619055710213\n2.02533509657594,0.220358250314979\n2.04880119256658,0.222972351354043\n2.07226728855721,0.22547937185284\n2.09573338454785,0.227869145533736\n2.11919948053848,0.230164118536311\n2.14266557652912,0.232373069642056\n2.16613167251975,0.234493957333701\n2.18959776851039,0.236550276116201\n2.21306386450102,0.238546825000922\n2.23652996049166,0.2404944940664\n2.25999605648229,0.242409856403358\n2.28346215247293,0.244302118591343\n2.30692824846356,0.246187154052006\n2.3303943444542,0.248078195078307\n2.35386044044483,0.249994054456612\n2.37732653643547,0.251945864480615\n2.4007926324261,0.253952088341491\n2.42425872841674,0.256034439307748\n2.44772482440737,0.258200157685418\n2.47119092039801,0.260480234840795\n2.49465701638864,0.262887276040962\n2.51812311237928,0.265429623289554\n2.54158920836992,0.268157623850324\n2.56505530436055,0.271060870502926\n2.58852140035119,0.274165981418292\n2.61198749634182,0.277514909239932\n2.63545359233246,0.281093306433413\n2.65891968832309,0.284948842850159\n2.68238578431373,0.28909478862154\n2.70585188030436,0.293522692859792\n2.729317976295,0.298303373644743\n2.75278407228563,0.303405492454256\n2.77625016827627,0.308842781005075\n2.7997162642669,0.314672468825679\n2.82318236025754,0.320841951350047\n2.84664845624817,0.327388009296796\n2.87011455223881,0.334313528401153\n2.89358064822944,0.341574309208405\n2.91704674422008,0.34921230263341\n2.94051284021071,0.357172196848272\n2.96397893620135,0.365422564268619\n2.98744503219198,0.373979658968043\n3.01091112818262,0.382757040499513\n3.03437722417325,0.391729418297882\n3.05784332016389,0.400851445916785\n3.08130941615452,0.410052258391934\n3.10477551214516,0.41927464669286\n3.12824160813579,0.428446903986893\n3.15170770412643,0.437506444591615\n3.17517380011706,0.446337359525645\n3.1986398961077,0.45489908932678\n3.22210599209833,0.463097299356939\n3.24557208808897,0.470808274881651\n3.2690381840796,0.47801645916918\n3.29250428007024,0.484571980663196\n3.31597037606087,0.490414712483011\n3.33943647205151,0.495532896974292\n3.36290256804214,0.499707356577843\n3.38636866403278,0.503007430520713\n3.40983476002341,0.50536374270938\n3.43330085601405,0.506604746402882\n3.45676695200468,0.506855170831414\n3.48023304799532,0.505979448983149\n3.50369914398595,0.503956733075168\n3.52716523997659,0.50088835859495\n3.55063133596722,0.49659690704771\n3.57409743195786,0.49122849476299\n3.59756352794849,0.484822634537357\n3.62102962393913,0.477245134425987\n3.64449571992976,0.468722266350565\n3.6679618159204,0.459220073914058\n3.69142791191103,0.448764231534265\n3.71489400790167,0.437520186859911\n3.7383601038923,0.425444151111721\n3.76182619988294,0.412676555651337\n3.78529229587357,0.399324822957639\n3.80875839186421,0.385364423059024\n3.83222448785484,0.370981801407406\n3.85569058384548,0.356228145313849\n3.87915667983611,0.341168107887202\n3.90262277582675,0.325918851310435\n3.92608887181738,0.31054146377493\n3.94955496780802,0.295122987954801\n3.97302106379865,0.279735015276659\n3.99648715978929,0.264467545839267\n4.01995325577992,0.249369736702943\n4.04341935177056,0.234506533148838\n4.06688544776119,0.219969822244311\n4.09035154375183,0.205765187230396\n4.11381763974246,0.191980232004599\n4.1372837357331,0.178655774985774\n4.16074983172373,0.165785320026581\n4.18421592771437,0.153487025119876\n4.207682023705,0.141720132216641\n4.23114811969564,0.130502843513284\n4.25461421568627,0.119939299117928\n4.27808031167691,0.109941933547032\n4.30154640766754,0.100573865508889\n4.32501250365818,0.0918569491044449\n4.34847859964882,0.0837247867257952\n4.37194469563945,0.0762698518184738\n4.39541079163009,0.0694291663623666\n4.41887688762072,0.0631720210349336\n4.44234298361136,0.0576020887132944\n4.46580907960199,0.0525948484625015\n4.48927517559263,0.0481822537167722\n4.51274127158326,0.0443877465111966\n4.5362073675739,0.0411245045719512\n4.55967346356453,0.0384521532829531\n4.58313955955517,0.0363230471916599\n4.6066056555458,0.034686678331604\n4.63007175153644,0.0336253856736586\n4.65353784752707,0.0330310415821457\n4.67700394351771,0.0329088119494924\n4.70047003950834,0.0332853095966733\n4.72393613549898,0.034074605079647\n4.74740223148961,0.0353050008600573\n4.77086832748025,0.0369437710637535\n4.79433442347088,0.0389346713187357\n4.81780051946152,0.0413133346664632\n4.84126661545215,0.0440016087874552\n4.86473271144279,0.0469737451832132\n4.88819880743342,0.0502319019268268\n4.91166490342406,0.0536994689174903\n4.93513099941469,0.0573596885607711\n4.95859709540533,0.0611727868175278\n4.98206319139596,0.0650845858409954\n5.0055292873866,0.0690625448997926\n5.02899538337723,0.073054448450008\n5.05246147936787,0.0770177515057958\n5.0759275753585,0.0808926599718601\n5.09939367134914,0.0846479612648478\n5.12285976733977,0.0882287774067613\n5.14632586333041,0.0915781162196236\n5.16979195932104,0.0946825828069427\n5.19325805531168,0.0974630656383904\n5.21672415130231,0.0999038074609484\n5.24019024729295,0.10199689700958\n5.26365634328358,0.103636132214907\n5.28712243927422,0.104876362760662\n5.31058853526485,0.105678210963512\n5.33405463125549,0.105991737776539\n5.35752072724612,0.105875999877197\n5.38098682323676,0.105278066834482\n5.40445291922739,0.104221730637657\n5.42791901521803,0.102755262955625\n5.45138511120866,0.100822121610224\n5.4748512071993,0.0985116212588494\n5.49831730318993,0.0958431761950774\n5.52178339918057,0.0928091563510123\n5.5452494951712,0.0894973863739413\n5.56871559116184,0.0859177346803468\n5.59218168715247,0.0821128653800113\n5.61564778314311,0.0781427681369737\n5.63911387913374,0.0740263647030907\n5.66257997512438,0.0698214666825946\n5.68604607111501,0.065566733331274\n5.70951216710565,0.0612987238240994\n5.73297826309628,0.0570549899176621\n5.75644435908692,0.0528708488687483\n5.77991045507755,0.0487812647557613\n5.80337655106819,0.0448011611297671\n5.82684264705882,0.040972798817257\n5.85030874304946,0.0373044403840629\n5.87377483904009,0.0338018282719775\n5.89724093503073,0.0305137421689991\n5.92070703102136,0.02741170956353\n5.944173127012,0.0245134888958932\n5.96763922300263,0.0218364984542014\n5.99110531899327,0.0193523804323015\n6.0145714149839,0.0170834811516878\n6.03803751097454,0.0150147552741877\n6.06150360696517,0.0131250651432092\n6.08496970295581,0.0114398163944226\n6.10843579894645,0.00991867478030012\n6.13190189493708,0.00855704008494726\n6.15536799092772,0.00736022989079235\n6.17883408691835,0.0062940952665126\n6.20230018290898,0.00536159351487882\n6.22576627889962,0.00454929609457793\n6.24923237489025,0.00383612098897806\n6.27269847088089,0.00322758920329379\n6.29616456687152,0.00270097417850955\n6.31963066286216,0.00224701018477414\n6.34309675885279,0.00186649434899076\n6.36656285484343,0.00154011874867967\n6.39002895083407,0.00126553506510706\n6.4134950468247,0.00103676805954035\n6.43696114281534,0.000843276202509978\n6.46042723880597,0.000684690514374704"
+    },
+    {
+      "name": "scale/x",
+      "format": {
+        "type": "csv",
+        "parse": {
+          "domain": "number"
+        }
+      },
+      "values": "\"domain\"\n0.177380037313432\n6.75961996268657"
+    },
+    {
+      "name": "scale/y",
+      "format": {
+        "type": "csv",
+        "parse": {
+          "domain": "number"
+        }
+      },
+      "values": "\"domain\"\n-0.0253427585415707\n0.532197929372985"
+    }
+  ],
+  "scales": [
+    {
+      "name": "x",
+      "domain": {
+        "data": "scale/x",
+        "field": "data.domain"
+      },
+      "zero": false,
+      "nice": false,
+      "clamp": false,
+      "range": "width"
+    },
+    {
+      "name": "y",
+      "domain": {
+        "data": "scale/y",
+        "field": "data.domain"
+      },
+      "zero": false,
+      "nice": false,
+      "clamp": false,
+      "range": "height"
+    }
+  ],
+  "marks": [
+    {
+      "type": "area",
+      "properties": {
+        "update": {
+          "fill": {
+            "value": "#333333"
+          },
+          "y2": {
+            "scale": "y",
+            "value": 0
+          },
+          "fillOpacity": {
+            "value": 0.2
+          },
+          "x": {
+            "scale": "x",
+            "field": "data.pred_"
+          },
+          "y": {
+            "scale": "y",
+            "field": "data.resp_"
+          },
+          "stroke": {
+            "value": "transparent"
+          }
+        },
+        "ggvis": {
+          "data": {
+            "value": ".0/density1"
+          }
+        }
+      },
+      "from": {
+        "data": ".0/density1"
+      }
+    },
+    {
+      "type": "line",
+      "properties": {
+        "update": {
+          "stroke": {
+            "value": "#000000"
+          },
+          "x": {
+            "scale": "x",
+            "field": "data.pred_"
+          },
+          "y": {
+            "scale": "y",
+            "field": "data.resp_"
+          },
+          "fill": {
+            "value": "transparent"
+          }
+        },
+        "ggvis": {
+          "data": {
+            "value": ".0/density1"
+          }
+        }
+      },
+      "from": {
+        "data": ".0/density1"
+      }
+    }
+  ],
+  "legends": [],
+  "axes": [
+    {
+      "type": "x",
+      "scale": "x",
+      "orient": "bottom",
+      "layer": "back",
+      "grid": true,
+      "title": "wt"
+    },
+    {
+      "type": "y",
+      "scale": "y",
+      "orient": "left",
+      "layer": "back",
+      "grid": true,
+      "title": "density"
+    }
+  ],
+  "padding": null,
+  "ggvis_opts": {
+    "keep_aspect": false,
+    "resizable": true,
+    "padding": {},
+    "duration": 250,
+    "renderer": "svg",
+    "hover_duration": 0,
+    "width": 672,
+    "height": 480
+  },
+  "handlers": null
+};
+ggvis.getPlot("plot_id147077762").parseSpec(plot_id147077762_spec);
+</script>
+<p>%</p>
+<pre class="r"><code>library(googleVis)
+op &lt;- options(gvis.plot.tag=&quot;chart&quot;)</code></pre>
+<pre class="r"><code>mark_func &lt;- function(d) {
+    d$Mean = mean(d$Popularity)
+    CC &lt;- gvisComboChart(d, xvar = &quot;City&quot;, yvar = c(&quot;Mean&quot;, &quot;Popularity&quot;), options = list(seriesType = &quot;bars&quot;, 
+        width = 450, height = 300, title = &quot;City Popularity&quot;, series = &quot;{0: {type:\&quot;line\&quot;}}&quot;))
+    return(CC)
+}</code></pre>
+<pre class="r"><code>plt &lt;- mark_func(CityPopularity)
+plot(plt)</code></pre>
+<!-- ComboChart generated in R 3.3.1 by googleVis 0.6.0 package -->
+<!-- Sat Oct 21 10:48:51 2017 -->
+<!-- jsHeader -->
+<script type="text/javascript">
+ 
+// jsData 
+function gvisDataComboChartIDec87b595bed () {
+var data = new google.visualization.DataTable();
+var datajson =
+[
+ [
+ "New York",
+450,
+200 
+],
+[
+ "Boston",
+450,
+300 
+],
+[
+ "Miami",
+450,
+400 
+],
+[
+ "Chicago",
+450,
+500 
+],
+[
+ "Los Angeles",
+450,
+600 
+],
+[
+ "Houston",
+450,
+700 
+] 
+];
+data.addColumn('string','City');
+data.addColumn('number','Mean');
+data.addColumn('number','Popularity');
+data.addRows(datajson);
+return(data);
+}
+ 
+// jsDrawChart
+function drawChartComboChartIDec87b595bed() {
+var data = gvisDataComboChartIDec87b595bed();
+var options = {};
+options["allowHtml"] = [true];
+options["seriesType"] = ["bars"];
+options["width"] = [450];
+options["height"] = [300];
+options["title"] = ["City Popularity"];
+options["series"] = {0: {type:"line"}};
+
+    var chart = new google.visualization.ComboChart(
+    document.getElementById('ComboChartIDec87b595bed')
+    );
+    chart.draw(data,options);
+    
+
+}
+  
+ 
+// jsDisplayChart
+(function() {
+var pkgs = window.__gvisPackages = window.__gvisPackages || [];
+var callbacks = window.__gvisCallbacks = window.__gvisCallbacks || [];
+var chartid = "corechart";
+  
+// Manually see if chartid is in pkgs (not all browsers support Array.indexOf)
+var i, newPackage = true;
+for (i = 0; newPackage && i < pkgs.length; i++) {
+if (pkgs[i] === chartid)
+newPackage = false;
+}
+if (newPackage)
+  pkgs.push(chartid);
+  
+// Add the drawChart function to the global list of callbacks
+callbacks.push(drawChartComboChartIDec87b595bed);
+})();
+function displayChartComboChartIDec87b595bed() {
+  var pkgs = window.__gvisPackages = window.__gvisPackages || [];
+  var callbacks = window.__gvisCallbacks = window.__gvisCallbacks || [];
+  window.clearTimeout(window.__gvisLoad);
+  // The timeout is set to 100 because otherwise the container div we are
+  // targeting might not be part of the document yet
+  window.__gvisLoad = setTimeout(function() {
+  var pkgCount = pkgs.length;
+  google.load("visualization", "1", { packages:pkgs, callback: function() {
+  if (pkgCount != pkgs.length) {
+  // Race condition where another setTimeout call snuck in after us; if
+  // that call added a package, we must not shift its callback
+  return;
+}
+while (callbacks.length > 0)
+callbacks.shift()();
+} });
+}, 100);
+}
+ 
+// jsFooter
+</script>
+<!-- jsChart -->
+<script type="text/javascript" src="https://www.google.com/jsapi?callback=displayChartComboChartIDec87b595bed"></script>
+<!-- divChart -->
+<div id="ComboChartIDec87b595bed" style="width: 450; height: 300;">
+
+</div>
+
+
+
+
+</div>
+
+<script>
+
+// add bootstrap table styles to pandoc tables
+function bootstrapStylePandocTables() {
+  $('tr.header').parent('thead').parent('table').addClass('table table-condensed');
+}
+$(document).ready(function () {
+  bootstrapStylePandocTables();
+});
+
+
+</script>
+
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+  (function () {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    script.src  = "https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML";
+    document.getElementsByTagName("head")[0].appendChild(script);
+  })();
+</script>
+
+</body>
+</html>

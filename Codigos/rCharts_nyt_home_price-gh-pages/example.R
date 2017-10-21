@@ -10,9 +10,6 @@
 #use of cumulative growth http://www.ncbi.nlm.nih.gov/pmc/articles/PMC2909426/.
 #Exponential growth series demonstrated in network analysis,
 #biochemistry, agriculture could also work in this context.
-
-
-
 require(rCharts)
 require(reshape2)
 

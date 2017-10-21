@@ -1,0 +1,55 @@
+---
+title: "stackoverflow"
+author: "NN"
+date: "7 november 2016"
+mode: selfcontained
+output:
+  html_document: 
+    self_contained: no
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+library(ggvis)
+```
+
+```{r eruptions, echo=FALSE}
+mtcars %>% ggvis(x = ~wt) %>%
+    layer_densities(
+      adjust = input_slider(.1, 2, value = 1, step = .1, label = "Bandwidth adjustment"),
+      kernel = input_select(
+        c("Gaussian" = "gaussian",
+          "Epanechnikov" = "epanechnikov",
+          "Rectangular" = "rectangular",
+          "Triangular" = "triangular",
+          "Biweight" = "biweight",
+          "Cosine" = "cosine",
+          "Optcosine" = "optcosine"),
+        label = "Kernel")
+    )
+```
+
+%\VignetteEngine{knitr::knitr}
+
+```{r}
+library(googleVis)
+op <- options(gvis.plot.tag="chart")
+```
+
+```{r results='asis', tidy=TRUE}
+mark_func <- function(d) {
+    d$Mean=mean(d$Popularity)
+    CC <- gvisComboChart(d, xvar='City',
+          yvar=c('Mean', 'Popularity'),
+          options=list(seriesType='bars',
+                       width=450, height=300,
+                       title='City Popularity',
+                       series='{0: {type:\"line\"}}'))
+    return(CC)
+}
+```
+
+```{r results='asis', tidy=TRUE}
+plt <- mark_func(CityPopularity)
+plot(plt)
+```

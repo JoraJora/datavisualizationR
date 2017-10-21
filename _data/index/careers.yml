@@ -233,7 +233,8 @@
               <li> Ejemplo de reporte HTML (<a target="_blank" href = "https://raw.githubusercontent.com/JoraJora/datavisualizationR/master/Codigos/rCharts_nyt_home_price-gh-pages.zip"> Código </a>)
               <li> <a target="_blank" href = "http://www.htmlwidgets.org/"> Htmlwidgets</a>
               <li> Reportes en EXCEL <a href = "http://www.sthda.com/english/wiki/r-xlsx-package-a-quick-start-guide-to-manipulate-excel-files-in-r">(Guía paquete xlsx)</a>
-            </ul>
+              <li> <a target="_blank" href = "https://raw.githubusercontent.com/JoraJora/datavisualizationR/master/Codigos/EjemplosGGVISGOOGLEVIS.zip">Ejemplo rmarkdown ggvis y googleVis </a>
+             </ul>
             <h3> Taller III </h3>
             <ul>
               <li> <a target="_blank" href="https://raw.githubusercontent.com/JoraJora/datavisualizationR/master/Codigos/TallerExcel/taller-iii-visualizacion.pdf"> Ejemplo paquete xlsx</a>
@@ -246,6 +247,28 @@
   job:
     detail: Programación en R
     i18n: week_10_jon
+  icon: fa-plus-square
+- name:
+    detail: 
+    i18n: 
+  desc:
+    detail: <h3> Programación en R (visualización IV) </h3>
+            <ul> 
+              <li> <a target="_blank" href = "http://web.stanford.edu/~imalone/VAM/ggmap.html#chloropleth-map"> Representación espacial en R </a>
+              <li> <a target="_blank" href = "https://alstatr.blogspot.com.co/2015/02/r-how-to-layout-and-design-infographic.html"> Ejemplo de infografía </a>
+              <li> Ejemplo de proyecto integrador <a target="_blank" href = "https://cran.r-project.org/web/packages/ifaTools/vignettes/pritikin-schmidt.pdf"> (ver Link)</a> <a target="_blank" href = "https://cran.r-project.org/web/packages/ifaTools/index.html"> (ver Paquete) </a>.
+            </ul>
+            # <h3> Taller IV </h3>
+            # <ul>
+            #   <li> <a target="_blank" href="https://raw.githubusercontent.com/JoraJora/datavisualizationR/master/Codigos/TallerExcel/taller-iv-visualizacion.pdf"> </a>
+            # </UL>
+    i18n: week_11_desc
+  date:
+    detail: Semana 11
+    i18n: week_11_desc
+  job:
+    detail: Programación en R
+    i18n: week_11_jon
   icon: fa-plus-square
 
 
