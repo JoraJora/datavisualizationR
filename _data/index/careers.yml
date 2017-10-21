@@ -256,7 +256,7 @@
             <ul> 
               <li> <a target="_blank" href = "http://web.stanford.edu/~imalone/VAM/ggmap.html#chloropleth-map"> Representación espacial en R </a>
               <li> <a target="_blank" href = "https://alstatr.blogspot.com.co/2015/02/r-how-to-layout-and-design-infographic.html"> Ejemplo de infografía </a>
-              <li> Ejemplo de proyecto integrador <a target="_blank" href = "https://cran.r-project.org/web/packages/ifaTools/vignettes/pritikin-schmidt.pdf"> (ver Link)</a> <a target="_blank" href = "https://cran.r-project.org/web/packages/ifaTools/index.html"> (ver Paquete) </a>.
+              <li> Ejemplo de proyecto integrador <a target="_blank" href = "https://cran.r-project.org/web/packages/ifaTools/vignettes/pritikin-schmidt.pdf"> (ver Link)</a> <a target="_blank" href = "https://cran.r-project.org/web/packages/ifaTools/index.html"> (ver Paquete) </a> <a href = "http://kylehamilton.net/shiny/lavaan.shiny/"> (Otro ejemplo) </a>.
             </ul>
             # <h3> Taller IV </h3>
             # <ul>
