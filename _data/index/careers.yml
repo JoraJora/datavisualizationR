@@ -270,6 +270,28 @@
     detail: Programación en R
     i18n: week_11_jon
   icon: fa-plus-square
+- name:
+    detail: 
+    i18n: 
+  desc:
+    detail: <h3> Aplicación Shiny (Introducción) </h3>
+            <ul> 
+              <li> Introducción Shiny <a target="_blank" href="https://raw.githubusercontent.com/JoraJora/datavisualizationR/master/Codigos/ExampleShiny/shini-quickstart-1/downloads/01-How-to-start.pdf"> (Presentación) </a> <a target="_blank" href="https://raw.githubusercontent.com/JoraJora/datavisualizationR/master/Codigos/ExampleShiny/shini-quickstart-1/downloads/code.zip"> (Código) </a>
+              <li> Personalizar Reacciones <a target="_blank" href="https://raw.githubusercontent.com/JoraJora/datavisualizationR/master/Codigos/ExampleShiny/How-to-start-2/How-to-start-2/02-How-to-start-2.pdf"> (Presentación) </a> <a target="_blank" href="https://raw.githubusercontent.com/JoraJora/datavisualizationR/master/Codigos/ExampleShiny/How-to-start-2/code.zip"> (Código) </a>
+              <li> Personalizar Apariencias <a target="_blank" href="https://raw.githubusercontent.com/JoraJora/datavisualizationR/master/Codigos/ExampleShiny/How-to-start-3/How-to-start-3/03-How-to-start-3.pdf"> (Presentación) </a> <a target="_blank" href="https://raw.githubusercontent.com/JoraJora/datavisualizationR/master/Codigos/ExampleShiny/How-to-start-3/code.zip"> (Código) </a>
+            </ul>
+            # <h3> Taller IV </h3>
+            # <ul>
+            #   <li> <a target="_blank" href="https://raw.githubusercontent.com/JoraJora/datavisualizationR/master/Codigos/TallerExcel/taller-iv-visualizacion.pdf"> </a>
+            # </UL>
+    i18n: week_11_desc
+  date:
+    detail: Semana 11
+    i18n: week_11_desc
+  job:
+    detail: Programación en R
+    i18n: week_11_jon
+  icon: fa-plus-square
 
 
 
