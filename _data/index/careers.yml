@@ -284,13 +284,13 @@
             # <ul>
             #   <li> <a target="_blank" href="https://raw.githubusercontent.com/JoraJora/datavisualizationR/master/Codigos/TallerExcel/taller-iv-visualizacion.pdf"> </a>
             # </UL>
-    i18n: week_11_desc
+    i18n: week_12_desc
   date:
-    detail: Semana 11
-    i18n: week_11_desc
+    detail: Semana 12
+    i18n: week_12_desc
   job:
     detail: Programación en R
-    i18n: week_11_jon
+    i18n: week_12_jon
   icon: fa-plus-square
 
 
