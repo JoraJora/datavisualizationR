@@ -292,6 +292,27 @@
     detail: Programación en R
     i18n: week_12_jon
   icon: fa-plus-square
+- name:
+    detail: 
+    i18n: 
+  desc:
+    detail: <h3> Aplicación Shiny (Practica) </h3>
+            <ul> 
+              <li> Taller de Practica Shiny <a target="_blank" href="https://www.overleaf.com/read/whsfggkxpykf"> (Link del Taller) </a>
+              <li> Tutorial dashboardShiny
+            </ul>
+            # <h3> Taller IV </h3>
+            # <ul>
+            #   <li> <a target="_blank" href="https://raw.githubusercontent.com/JoraJora/datavisualizationR/master/Codigos/TallerExcel/taller-iv-visualizacion.pdf"> </a>
+            # </UL>
+    i18n: week_13_desc
+  date:
+    detail: Semana 12
+    i18n: week_13_desc
+  job:
+    detail: Programación en R
+    i18n: week_13_jon
+  icon: fa-plus-square
 
 
 
