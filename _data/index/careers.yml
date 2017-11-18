@@ -307,11 +307,31 @@
             # </UL>
     i18n: week_13_desc
   date:
-    detail: Semana 12
+    detail: Semana 13
     i18n: week_13_desc
   job:
     detail: Programación en R
     i18n: week_13_jon
+  icon: fa-plus-square
+- name:
+    detail: 
+    i18n: 
+  desc:
+    detail: <h3> Aplicación Shiny (Practica) </h3>
+            <ul> 
+              <li> Tutorial dashboardShiny
+            </ul>
+            <h3> Parcial II</h3>
+            <ul>
+               <li> <a target="_blank" href="https://docs.google.com/forms/d/e/1FAIpQLSfX8QKuXIO4Byn_njs2FUFtlLVQz3scmpyANVWTWDPbBPWPbQ/viewform?usp=sf_link"> Link Google Forms</a>
+            </UL>
+    i18n: week_14_desc
+  date:
+    detail: Semana 14
+    i18n: week_14_desc
+  job:
+    detail: Programación en R
+    i18n: week_14_jon
   icon: fa-plus-square
 
 
