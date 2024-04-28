@@ -1,15 +1,3 @@
-<!-- Google analytics -->
-{% if site.ga %}
-<script async src="https://www.googletagmanager.com/gtag/js?id={{ site.ga.id }"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', '{{ site.ga.id }}');
-</script>
-{% endif %}
-
 <!-- GrowingIO -->
 {% if site.gio %}
   <script>
